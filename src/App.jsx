@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import "./App.css";
-import MovieCard from "./components/MovieCard";
-import Loading from "./components/Loading";
+import MovieCard from "./MovieCard";
+import Loading from "./Loading";
 
 const App = () => {
   const [searchTerm, setSearchTerm] = useState("");
